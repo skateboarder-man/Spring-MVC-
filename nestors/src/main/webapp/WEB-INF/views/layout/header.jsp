@@ -1,9 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<script src="js/jquery/jquery-3.7.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/style.css">
 <header style="background-color: #f8f9fa; padding: 20px; border-bottom: 1px solid #e9ecef; text-align: center;">
     <h1>환영합니다!</h1>
-    <p>이곳은 웹사이트의 헤더입니다.</p>
 </header>
-</html>

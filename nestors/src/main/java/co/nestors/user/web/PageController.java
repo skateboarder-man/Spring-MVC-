@@ -5,12 +5,17 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-public class HomeController {
+public class PageController {
 	
 	@GetMapping("/")
 	public String template() throws Exception {
-		ModelAndView mav = new ModelAndView();
-		return "main.page";
+		return "login.page";
 	}
+	
+	@GetMapping("/register")
+	public String register() throws Exception {
+		return "register.page";
+	}
+
 
 }
